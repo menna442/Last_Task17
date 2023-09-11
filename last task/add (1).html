@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+  <h1>
+  <center><u> Add a Proton :D</u> </center>
+  </h1>
+ <body>
+  <style> h1{ color: blueviolet; font-size: 50px;}
+   form{ font-size: 20px;}
+   body{ background-color: lightblue;}
+  </style>
+  <form><center>
+   Name: <input type="text">
+   <br>
+   Age: <input type="text">
+   <br>
+   Track: <input type="radio" id="Choice1" name="track" value="prog" />
+      <label for="Choice1">Programing</label>
+      <input type="radio" id="Choice2" name="track" value="robo" />
+      <label for="Choice2">Robotics</label>
+   <br>
+   Hobbies: <input type="text">
+   <br>
+   <input type="submit">
+   <input type="reset"></center>     
+  </form>
+  {% block content %}
+  {% endblock %}
+ </body>
+</html>
